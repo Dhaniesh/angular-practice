@@ -1,0 +1,9 @@
+<p>parent works!</p>
+
+<!-- <input #name type="text" placeholder="name">
+<br>
+<button (click)="onInputChange(name.value)">Submit</button>
+<br> -->
+<input #input (input)="($event)">
+<button (click)="onInputChange(input.value)">Sumbit</button>
+<app-child [child_name]="parentMessage"></app-child>

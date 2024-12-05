@@ -1,0 +1,5 @@
+div {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: flex-start; /* Align items to the start (left) */
+}
